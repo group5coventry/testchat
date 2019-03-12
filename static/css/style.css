@@ -1,0 +1,44 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url("28205.jpg");
+  height: 100vh;
+  background-size:cover;
+  background-position: center;
+
+}
+
+
+
+
+
+
+.hero {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: rgba(66,87,92,0.2);
+    border: 0;
+}
+
+.no_mesg {
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+.message_holder {
+    left: 10px;
+}
+
+.w3-container1 {
+    position: absolute;
+    left: 30%;
+    top: 95%;
+    transform: translateX(-50%) translateY(-50%);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Welcome to Signup Page</title>
+    <style type="text/css">
+        .name,.pass,.email,.hint,.button{
+            text-align: center;
+        }
+        .hd{
+            text-align: center;
+            color: purple;
+            background-color: grey;
+        }
+        .bd{
+            background-color: lightblue;
+            background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25));
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bd">
+    <h1 class="hd"> SignUp</h1>
+    <form method="POST" action ="">
+        <div class="name">
+        Username <br> <input type = "text" name ="Username" placeholder="Enter Username"/>
+        </div>
+        <br>
+        <div class="email">
+        Enter Email <br> <input type = "email" name = "email" placeholder="example@hotmail.com"/>
+        </div>
+        <br>
+        <div class="pass">
+        Password <br> <input type = "password" name = "Password" placeholder="Enter password"/>
+        </div>
+        <br>
+        <div class="hint">
+        Password Hint <br> <input type = "text" name = "Hint" placeholder="Enter Hint for Password"/>
+        </div>
+        <br>
+        <div class="button">
+        <input type ="Submit">
+        </div>
+    </form>
+</body>
+</html>
