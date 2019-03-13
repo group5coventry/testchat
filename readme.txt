@@ -1,2 +1,1 @@
-Thanks for reading bitch
-
+First attempt to create a chat
